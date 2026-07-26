@@ -1,0 +1,17 @@
+# Taste Learnings
+- Prefers creating comprehensive architectural planning documents (project structure, implementation ideas, process) before starting implementation. Confidence: 0.9
+- Uses a dedicated "mindmapping" (or similar planning) folder for architectural and planning documents. Confidence: 0.7
+- Prefers Markdown (.md) format for planning and documentation files. Confidence: 0.8
+- Prefers HeroUI as the UI component library (Tailwind-compatible, clean aesthetic). Confidence: 0.8
+- Prefers React Hot Toast for toast notifications. Confidence: 0.7
+- Prefers a feature-based folder structure for organizing frontend code. Confidence: 0.7
+- Prefers a layered backend architecture: Express Router → Controllers → Services → Collections (MongoDB). Separates HTTP concerns from business logic from data access. Confidence: 0.8
+- Prefers Next.js 16 with App Router as the frontend framework for full-stack projects. Confidence: 0.8
+- Prefers Better Auth for authentication (HTTPOnly session cookies, OAuth) over manual JWT or Firebase Auth. Confidence: 0.8
+- Prefers MongoDB Native Driver over Mongoose for database operations. Confidence: 0.8
+- Prefers native fetch() over Axios for HTTP requests. Confidence: 0.8
+- Prefers a minimalist dependency philosophy — actively avoids Axios, TanStack Query, React Hook Form, Zod, Redux, Zustand, Prisma, and Mongoose unless there is a strong technical reason. Confidence: 0.85
+- Prefers JavaScript over TypeScript. Confidence: 0.8
+- Prefers React Server Components as the default rendering strategy; uses Client Components only when interactivity (useState, useEffect, event handlers) is required. Confidence: 0.8
+- Prefers documentation that explains the "why" behind each architectural decision, not just what was chosen. Confidence: 0.85
+- Prefers a "design first, code later" workflow — thorough architecture documentation must be approved before implementation begins. Confidence: 0.85
